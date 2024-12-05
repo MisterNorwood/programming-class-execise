@@ -1,5 +1,9 @@
 package org.example;
 
+import org.example.data.Address;
+import org.example.data.Company;
+import org.example.data.Person;
+
 import java.util.HashMap;
 import java.util.Random;
 

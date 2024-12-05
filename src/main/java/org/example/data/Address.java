@@ -1,4 +1,4 @@
-package org.example;
+package org.example.data;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -8,4 +8,7 @@ import lombok.Data;
 public class Address {
     private String street, flatNo, houseNo, postalCode, city, country;
 
+    public String serialize() {
+        return street + ";" + flatNo + ";" + houseNo + ";" + postalCode + ";" + city + ";" + country;
+    }
 }
